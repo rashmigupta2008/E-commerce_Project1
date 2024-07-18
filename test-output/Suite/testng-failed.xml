@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="chrome test(failed)">
+    <parameter name="rashmi_gupta" value="chrome"/>
+    <classes>
+      <class name="E_Commerce.Project_1.Test_Case_11">
+        <methods>
+          <include name="validate_checkout_process_address_payment_selection__order_review"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_11 -->
+      <class name="E_Commerce.Project_1.Test_Case_1">
+        <methods>
+          <include name="registration"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_1 -->
+      <class name="E_Commerce.Project_1.Test_Case_8">
+        <methods>
+          <include name="product_sorted_by_price"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_8 -->
+      <class name="E_Commerce.Project_1.Test_Case_4">
+        <methods>
+          <include name="edit_profile"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_4 -->
+      <class name="E_Commerce.Project_1.Test_Case_14">
+        <methods>
+          <include name="give_rating_on_last_order"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_14 -->
+      <class name="E_Commerce.Project_1.Test_Case_13">
+        <methods>
+          <include name="before_method"/>
+          <include name="apply_coupon_code"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_13 -->
+      <class name="E_Commerce.Project_1.Test_Case_12">
+        <methods>
+          <include name="before_method"/>
+          <include name="select_payment_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_12 -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+  <test thread-count="5" parallel="tests" name="edge test(failed)">
+    <parameter name="rashmi_gupta" value="edge"/>
+    <classes>
+      <class name="E_Commerce.Project_1.Test_Case_11">
+        <methods>
+          <include name="validate_checkout_process_address_payment_selection__order_review"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_11 -->
+      <class name="E_Commerce.Project_1.Test_Case_1">
+        <methods>
+          <include name="registration"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_1 -->
+      <class name="E_Commerce.Project_1.Test_Case_4">
+        <methods>
+          <include name="edit_profile"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_4 -->
+      <class name="E_Commerce.Project_1.Test_Case_14">
+        <methods>
+          <include name="give_rating_on_last_order"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_14 -->
+      <class name="E_Commerce.Project_1.Test_Case_13">
+        <methods>
+          <include name="before_method"/>
+          <include name="apply_coupon_code"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_13 -->
+      <class name="E_Commerce.Project_1.Test_Case_12">
+        <methods>
+          <include name="before_method"/>
+          <include name="select_payment_method"/>
+        </methods>
+      </class> <!-- E_Commerce.Project_1.Test_Case_12 -->
+    </classes>
+  </test> <!-- edge test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
